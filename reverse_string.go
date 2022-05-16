@@ -1,6 +1,6 @@
 package reverse_string
 //package main
-import ("fmt")
+//import ("fmt")
 func ReverseString(input string) (output string) {
 	// solution goes here
 	s := []rune(input)
