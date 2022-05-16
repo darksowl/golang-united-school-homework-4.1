@@ -8,7 +8,8 @@ func ReverseString(input string) (output string) {
 	for i:=0; i<len(r);i++ {
 		r[len(r)-i-1] = s[i]
 	}
-	return string(r)
+	output = string(r)
+	return output
 }
 
 //func main() {
