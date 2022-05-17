@@ -1,11 +1,15 @@
 package reverse_string
 //package main
-//import ("fmt")
+
+//import (
+//	"fmt"
+//)
+
 func ReverseString(input string) (output string) {
 	// solution goes here
 	s := []rune(input)
 	r := []rune(input)
-	for i:=0; i<len(r);i++ {
+	for i := 0; i < len(r); i++ {
 		r[len(r)-i-1] = s[i]
 	}
 	output = string(r)
@@ -13,7 +17,7 @@ func ReverseString(input string) (output string) {
 }
 
 //func main() {
-//	s := "Jetbrains系"
-//	r:= ReverseString(s)
+//	s := "I like tennis 🤚🎾😀"
+//	r := ReverseString(s)
 //	fmt.Println(r)
 //}
